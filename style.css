@@ -29,11 +29,11 @@ p.lead {
 } */
 
 .container .img-container {
-    width: 500px; /* Reducido al 25% */
+    width: 80%; /* Reducido al 25% */
 }
 
 .container .boton {
-    width: 500px; /* Reducido al 25% */
+    width: 80%; /* Reducido al 25% */
     height: 37.5px; /* Reducido al 25% */
     font-size: 1rem; /* Reducido al 25% */
 }
