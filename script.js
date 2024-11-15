@@ -28,3 +28,14 @@ function showNoAlert() {
     });
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+    Swal.fire({
+        title: '¿Qué haces acá de nuevo?',
+        text: '¿Queres otra cita?',
+        icon: 'question',
+        confirmButtonText: 'Cerrar',
+        customClass: {
+            popup: 'swal-large'
+        }
+    });
+});
