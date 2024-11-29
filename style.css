@@ -85,3 +85,39 @@ h2.display-6 {
 .div_mb-5 button {
     font-size: 1.25rem; /* Reducido al 25% */
 }
+
+.centro{
+    align-items: center;
+    margin-right: 25px;
+}
+
+#plan-options li {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style-type: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#plan-options li:hover {
+    background-color: #f0f0f0;
+}
+
+#plan-options li.selected {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-color: #0056b3;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+}
