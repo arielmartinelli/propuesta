@@ -28,17 +28,10 @@ function showNoAlert() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    Swal.fire({
-        title: 'ups',
-        text: 'no es un service tecnico pero...',
-        icon: 'question',
-        confirmButtonText: 'Cerrar',
-        customClass: {
-            popup: 'swal-large'
-        }
-    });
-});
+
+
+
+
 
 
 
