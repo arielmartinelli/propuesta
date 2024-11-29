@@ -77,7 +77,7 @@ function checkReadyToSend() {
 
 // Enviar mensaje a WhatsApp
 sendButton.addEventListener("click", () => {
-    const whatsappMessage = `Vamos a ${selectedPlan} el día ${new Date(selectedDate).toLocaleDateString()}.`;
-    const whatsappURL = `https://wa.me/?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappMessage = `Vamos a ${selectedPlan} el día ${new Date(selectedDate).toLocaleDateString()}`;
+    const whatsappURL = `https://wa.me/3516121498?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappURL, '_blank');
 });
