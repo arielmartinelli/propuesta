@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     Swal.fire({
         title: 'Ups',
-        text: 'No es un service técnico pero...',
+        text: 'No es una notica de Messi pero...',
         icon: 'question',
         confirmButtonText: 'Cerrar',
         customClass: {
